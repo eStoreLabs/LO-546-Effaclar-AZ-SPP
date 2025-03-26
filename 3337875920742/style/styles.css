@@ -24,6 +24,9 @@
   text-decoration: none;
   color: inherit;
 }
+#es-rc #es-rc-content sup {
+  top: 0;
+}
 #es-rc #es-rc-content .es-bold {
   font-weight: 900;
 }
@@ -508,7 +511,7 @@
   width: 100%;
   padding: 17px 50px 17px 15px;
   font-size: 20px;
-  color: #fff;
+  color: #fff !important;
   transition: all 200ms ease-out;
   cursor: pointer;
   background-color: #007470;
